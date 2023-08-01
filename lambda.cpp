@@ -12,10 +12,5 @@ int main()
     int q=8;
     int p=32;
     cout<<sum(7,8,[p,q](int x,int y){return x+y+p+q;});
-
-
-
-
-
     return 0;
 }
