@@ -27,8 +27,8 @@ int binarysearch(int *a, int b, int k)
 int main()
 {
     int q[]={1,2,3,4,5,6,7,8,9,0};
-    int a=binarysearch(q,10,4);
-    if(a==99)
+    int a=binarysearch(q,10,99);
+    if(a==-1)
     {
         cout<<"element not found";
     }
