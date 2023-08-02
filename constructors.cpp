@@ -19,5 +19,5 @@ int main()
     cons a(99);
     cons b;
     return 0;
-    
+
 }
