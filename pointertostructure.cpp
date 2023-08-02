@@ -9,5 +9,6 @@ int main()
     cout<<ptr<<endl;
     *ptr={9,8};
     cout<<a.x<<" , "<<a.y<<endl;
+    cout<<ptr->x<<" , "<<ptr->y<<endl;
     return 0;
 }
