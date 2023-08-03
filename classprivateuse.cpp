@@ -49,11 +49,11 @@ int main() {
     // Instead, use the public member function that calls the private helper function.
     std::cout << "Area: " << rect.getArea() << std::endl;
     std::cout << "Perimeter: " << rect.calculatePerimeter() << std::endl;
-
-    return 0;
 /*1st commit*/
 /*2nd commit*/
 /*3rd commit*/
 /*4th commit*/
-/*5th commit /
+/*5th commit */
+    return 0;
+
 }
