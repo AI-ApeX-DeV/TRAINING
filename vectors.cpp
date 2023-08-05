@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 
 int main()
@@ -31,4 +32,13 @@ int main()
         cout<<endl;
     }
 
+    //sorting a vector
+
+    int a[]={8,4,7,6,5,0,2,1,3,9};
+    sort(a,a+10);
+    cout<<"Sorted array: ";
+    for(int i=0;i<10;i++)
+    {
+        cout<<a[i]<<" ";
+    }
 }
