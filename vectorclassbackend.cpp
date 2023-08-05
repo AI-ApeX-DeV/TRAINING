@@ -1,6 +1,7 @@
 #include<iostream>
 #include<map>
 #include<vector>
+#include<set>
 using namespace std;
 int main()
 {
@@ -12,4 +13,15 @@ int main()
     friends["rahul"].push_back("sourav");
     friends["sourav"].push_back("sachh");
     cout<<friends["sachin"][2]<<endl;
+    cout<<"lets deal with sets"<<endl;
+    map<string,set<string> > friendd;
+    friendd["sachin"].insert("rahul");
+    friendd["sachin"].insert("sourav");
+    friendd["sachin"].insert("virat");
+    friendd["sachin"].insert("rahul");
+    friendd["rahul"].insert("sachin");
+    friendd["rahul"].insert("sourav");
+    cout<<friendd["sachin"].count("rahul")<<endl;
+
+
 }
