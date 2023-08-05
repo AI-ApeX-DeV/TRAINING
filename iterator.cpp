@@ -20,4 +20,8 @@ int main()
     {
         cout<<it->first<<" "<<it->second<<endl;
     }
+    for(auto it:population)
+    {
+        cout<<it.first<<" "<<it.second<<endl;
+    }
 }
